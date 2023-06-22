@@ -61,7 +61,7 @@ function ConfigurationForm() {
         position: "absolute",
         width: "90%",
         overflow: "hidden",
-        backgroundColor: "#282c34",
+        backgroundColor: "var(--background-border)",
         borderRadius: "10px",
         opacity: formStep === 1 ? 1 : 0,
         pointerEvents: formStep === 1 ? "auto" : "none",
@@ -76,8 +76,8 @@ function ConfigurationForm() {
           margin: "10px 0",
           border: "none",
           borderRadius: "5px",
-          backgroundColor: "#80cbc4",
-          color: "white",
+          backgroundColor: "var(--secondary)",
+          color: "var(--body-text)",
           fontFamily: 'JetBrains Mono',
           fontWeight: "bold"
         }}
@@ -119,8 +119,8 @@ function ConfigurationForm() {
           margin: "10px 0",
           border: "none",
           borderRadius: "5px",
-          backgroundColor: "#fd9170",
-          color: "white",
+          backgroundColor: "var(--secondary)",
+          color: "var(--body-text)",
           fontFamily: 'JetBrains Mono',
           fontWeight: "bold",
         }}

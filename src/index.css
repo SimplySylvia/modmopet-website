@@ -1,10 +1,19 @@
-* {
-    box-sizing: border-box;
+:root {
+    --background: #180506;
+    --background-border: #423034;
+    --primary: #DD3A55;
+    --secondary: #89dbc9;
+    --body-text: #f9f9f9;
 }
 
-body {
+* {
+    box-sizing: border-box;
+    color: var(--body-text);
+}
+
+body, html {
     color: #eee;
-    background-color: #1b1e23;
+    background-color: var(--background);
 }
 
 input::placeholder {
@@ -16,7 +25,7 @@ label {
     font-family: 'JetBrains Mono';
     font-size: 16px;
     font-weight: bolder;
-    background-color: #c792ea;
+    background-color: var(--primary);
     border-radius: 5px 5px 0 0;
     padding: 5px;
 }
